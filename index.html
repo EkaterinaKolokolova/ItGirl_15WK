@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Calculator</p>
+    <input id="num1" type="number">
+    <input id="num2" type="number">
+    <button onclick="getMinus()">-</button>
+    <button onclick="getPlus()">+</button>
+    <button onclick="getMult()">*</button>
+    <button onclick="getDivis()">/</button>
+    <p>Ответ:</p>
+    <div id="result"></div>
+    <hr>
+
+    <p>Имя</p>
+    <input id="name" type="text">
+    <div id="errorMessageName"></div>
+    <p>Фамилия</p>
+    <input id="Surname" type="text">
+    <div id="errorMessageSurname"></div>
+    <p>Имя пользователя</p>
+    <input id="user" type="text">
+    <div id="errorMessageUser"></div>
+    <p>Почта</p>
+    <input id="email" type="email">
+    <div id="errorMessageEmail"></div>
+    <p>Пароль</p>
+    <input id="password" type="password">
+    <div id="errorMessagePassword"></div>
+    <button id="comfirm" onclick="check()">Подтвердить</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
